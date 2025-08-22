@@ -6,6 +6,10 @@ macOS: /Applications/Adobe Illustrator <Version>/Presets.localized/en_US/Scripts
 
 Windows: C:\Program Files\Adobe\Adobe Illustrator <Version>\Presets\en_US\Scripts
 
+/Applications/Adobe Photoshop [Version]/Presets/Scripts/ 
+
+*C:\Program Files\Adobe\Adobe Photoshop [Version]\Presets\Scripts* 
+
 <img width="307" height="257" alt="image" src="https://github.com/user-attachments/assets/a0817624-e119-4a17-896d-e06dd223956f" />
 
 Now, make an action and use insert menu item and search for "One Script" add it and set a hotkey.
