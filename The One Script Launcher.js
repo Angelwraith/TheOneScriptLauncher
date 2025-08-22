@@ -248,6 +248,8 @@
                     if (prefs.customOrder) config.customOrder = prefs.customOrder;
                     if (prefs.customNames) config.customNames = prefs.customNames;
                     if (prefs.customNotes) config.customNotes = prefs.customNotes;
+                    if (prefs.favoritesOnly !== undefined) config.favoritesOnly = prefs.favoritesOnly;
+                    if (prefs.showHidden !== undefined) config.showHidden = prefs.showHidden;
                 }
             }
         } catch (e) {}
@@ -317,7 +319,9 @@
                 hiddenScripts: config.hiddenScripts,
                 customOrder: config.customOrder,
                 customNames: config.customNames,
-                customNotes: config.customNotes
+                customNotes: config.customNotes,
+                favoritesOnly: config.favoritesOnly,
+                showHidden: config.showHidden
             };
             
             settingsFile.open("w");
